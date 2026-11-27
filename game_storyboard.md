@@ -6,11 +6,11 @@
 
 **Theme:**
 
-The Cursed Garden, takes place in a once beautiful botanical sanctuary, known as The Enchanted Garden. It has fallen under a terrible curse cast by the evil Poison Ivy Queen. Once filled with beautiful flowers and thriving plants, the garden is now dying, and its plants have become dangerous.
+The Cursed Garden, takes place in a run down botanical sanctuary, known as The Enchanted Garden. It has fallen under a terrible curse cast by the evil Poison Ivy Queen. Once filled with beautiful flowers and thriving plant that have dies and the plants have become dangerous.
 
 **Storyline:** 
 
-TODO: The once-beautiful botanical sanctuary, known as The Enchanted Garden, has fallen under a terrible curse cast by the evil Poison Ivy Queen. Once filled with beautiful flowers and thriving plants, the garden is now dying, and its plants have become dangerous. Players must journey through the cursed garden, exploring different rooms to locate six hidden magical items while avoiding the Poison Ivy Queen. The items include the Moonflower Seed, Fairydust Fertilizer, Golden Watering Can, Ancient Gardening Book, Healing Potion, and Enchanted Pruning Shears. The player's mission is to collect all six items before encountering the Poison Ivy Queen to break the curse and restore the garden to its former beauty.
+The once beautiful botanical sanctuary, known as The Enchanted Garden, has fallen under a terrible curse cast by the evil Poison Ivy Queen. Once filled with beautiful flowers and thriving plants, the garden is now dying, and its plants have become dangerous. Players must journey through the cursed garden, exploring different rooms to locate six hidden magical items while avoiding the Poison Ivy Queen. The items include the Moonflower Seed, Fairydust Fertilizer, Golden Watering Can, Ancient Gardening Book, Healing Potion, and Enchanted Pruning Shears. The player's mission is to collect all six items before encountering the Poison Ivy Queen to break the curse and restore the garden to its former beauty.
 
 
 ## Rooms
@@ -24,7 +24,7 @@ Project One requires a minimum of eight rooms.
 5. The Whispering Fountain 
 6. The Botanist's Library 
 7. Health Herb Sanctuary
-8. Villain Room: The Queen's Thorned Throne
+8. Villain Room: The Leaky Lab
 
 
 ## Items
