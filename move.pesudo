@@ -8,18 +8,51 @@
 # keywords such as INPUT, OUTPUT, IF, ELSE, WHILE, SET, or similar terms.
 
 # TODO 1: Identify the information the movement process needs.
-# Consider the player's current room and movement command.
+
+DISPLAY current roomName
+DISPLAY required movement commands ‘go North, go South, go East, go West’
+
 
 # TODO 2: Prompt for and receive the player's movement command.
+
+DISPLAY ‘Enter move: go North, go South, go East, go West’
+GET player move 
+
 
 # TODO 3: Validate whether the requested movement is possible from the
 # current room. Show the decision clearly.
 
+DISPLAY ‘Enter your move’
+GET player move 
+DISPLAY ‘You are in roomName’
+DISPLAY 'You see itemName' 
+IF move command != valid direction
+	OUTPUT ‘invalid move, try again!’ 
+ELSE roomName == The Leaky Lab 
+	OUTPUT 'You've been captured by the Poison Ivy Queen!'
+
+
 # TODO 4: Describe what happens when the movement command is valid.
-# Include the room update and player output.
+
+IF movement to the room is successful
+DISPLAY ‘You are in roomName’
+DISPLAY inventory 
+
 
 # TODO 5: Describe what happens when the movement command is invalid.
-# Include the output the player should receive.
+
+IF movement to the room is unsuccessful
+DISLPLAY can’t move to roomName
+DISPLAY ‘Enter your next move’ 
+GET player next move
+
 
 # TODO 6: Show how movement fits into repeated gameplay.
+
+WHILE players status != The Leaky Lab
+	GET players next move 
+WHILE players inventory != 6 items collected 
+	GET players next move
+
+
 # The final game continues accepting commands until a required ending occurs.
