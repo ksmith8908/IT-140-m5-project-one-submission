@@ -51,8 +51,13 @@ GET player next move
 
 WHILE players status != The Leaky Lab
 	GET players next move 
+IF player status == The Leaky Lab 
+	OUTPUT 'You've been captured by the Poison Ivy Queen!'
 WHILE players inventory != 6 items collected 
-	GET players next move
+	GET players next move 
+IF players inventory == 6 items 
+	OUTPUT 'You win! All items have been collected'
 
 
 # The final game continues accepting commands until a required ending occurs.
+
